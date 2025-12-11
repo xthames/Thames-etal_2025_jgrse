@@ -87,7 +87,7 @@ Thames, A. B. & Foley, B. J. (2025). Output Data for Thames & Foley -- Reconcili
     | `VolatileProcessing_2025XI.m` | Identify parameter ranges discussed in main paper | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
 
 ## Reproduce my figures
-After creating the output data from the steps outlined above -- or downloading the output data used in the paper from the Zenodo repository -- to recreate the figures simply proceed as follows:
+After creating the output data from the steps outlined above -- or downloading the output data used in the paper from the Zenodo repository and placing them in the same hierarchy listed above -- to recreate the figures simply proceed as follows:
 
 | Figure Number(s) | Script Name | Description | Section | How to Run |
 | --- | --- | --- | --- | --- |
@@ -97,4 +97,6 @@ After creating the output data from the steps outlined above -- or downloading t
 | 6-9, S1-2, S4-5 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using variable regassing efficiency | `%% LOAD IN ALL-CONSTRAINTS TARGETED VARIANT CASES FOR TIME-SERIES ANALYSIS` | Comment out other sections, execute script in IDE |
 | 10 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using variable regassing efficiency | `%% SUCCESS INPUT FACTOR MAPPING` | Comment out other sections, execute script in IDE |
 | S3, S6 | `VolatileProcessing_2025XI.m` | Multipanel plots of water-related variables compared to present-day observations | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
+
+These recreated figures should mirror the files found in `figures/`.
 
