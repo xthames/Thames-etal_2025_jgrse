@@ -87,10 +87,14 @@ Thames, A. B. & Foley, B. J. (2025). Output Data for Thames & Foley -- Reconcili
     | `VolatileProcessing_2025XI.m` | Identify parameter ranges discussed in main paper | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+After creating the output data from the steps outlined above -- or downloading the output data used in the paper from the Zenodo repository -- to recreate the figures simply proceed as follows:
 
-| Figure Number(s) | Script Name | Description | How to Run |
-| --- | --- | --- | --- |
-| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
-| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
+| Figure Number(s) | Script Name | Description | Section | How to Run |
+| --- | --- | --- | --- | --- |
+| 2-3 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using constant regassing efficiency | `%% LOAD IN THE FWD BASE TIMESERIES DATA` | Comment out other sections, execute script in IDE |
+| 4 | `VolatileProcessing_2025XI.m` | Investigating shape of variable regassing efficiency from temperature and plate speed | `%% LOAD IN THE FWD BASE TIMESERIES DATA` | Comment out other sections, execute script in IDE |
+| 5 | `VolatileProcessing_2025XI.m` | Investigating experimental Magni et al. (2014) parameters | `%% LOAD IN THE FWD BASE TIMESERIES DATA` | Comment out other sections, execute script in IDE |
+| 6-9, S1-2, S4-5 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using variable regassing efficiency | `%% LOAD IN ALL-CONSTRAINTS TARGETED VARIANT CASES FOR TIME-SERIES ANALYSIS` | Comment out other sections, execute script in IDE |
+| 10 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using variable regassing efficiency | `%% SUCCESS INPUT FACTOR MAPPING` | Comment out other sections, execute script in IDE |
+| S3, S6 | `VolatileProcessing_2025XI.m` | Multipanel plots of water-related variables compared to present-day observations | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
 
