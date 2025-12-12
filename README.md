@@ -1,4 +1,4 @@
-<!-- [![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17916988.svg)](https://doi.org/10.5281/zenodo.17916988) 
 
 # Thames-etal_2025_jgrse
 
