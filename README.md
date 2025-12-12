@@ -70,7 +70,7 @@ Thames, A. (2025). Output Data for Thames & Foley -- Reconciling Coupled Thermal
     | `varyfR` | `n`, `y` | -, `VarfR` |
     | `varyphiRum` | `n`, `y` | -, `VarphiRum` |
     
-    However, additional distinguishing language is sometimes needed for the outputs
+    However, additional distinguishing language is sometimes needed for the outputs:
      * When considering models with variable regassing efficiency, multiple runs may be necessary to find a sufficient number of realizations that align with present-day estimates. If so, you can manually distinguish between each "set" by including `_set#_` after the `_viscStrength_` identifier and before `_VarfR_` in the output file name (see `VolatileProcesing_2025XI.m` for specific examples)
      * When running `ExploreAndSolveTargetedTXum_2025XI.m`, using the reduced set of present-day observations or the full set (see the paper's Supporting Information for more) can be tagged by including either `Essential` and `Full` in the filename before the `Targeted` identifier (see `VolatileProcesing_2025XI.m` for specific examples) 
 
