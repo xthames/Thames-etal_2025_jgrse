@@ -1,4 +1,4 @@
-<! -- [![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485) -->
+<!-- [![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485) -->
 
 # Thames-etal_2025_jgrse
 
@@ -95,5 +95,5 @@ After creating the output data from the steps outlined above -- or downloading t
 | 10 | `VolatileProcessing_2025XI.m` | Time-series of coupled thermal-water evolution of Earth's mantle using variable regassing efficiency | `%% SUCCESS INPUT FACTOR MAPPING` | Comment out other sections, execute script in IDE |
 | S3, S6 | `VolatileProcessing_2025XI.m` | Multipanel plots of water-related variables compared to present-day observations | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
 
-These recreated figures should mirror the files found in `figures/`.
+Note that the `%% SETUP` section must be left uncommented. These recreated figures should mirror the files found in `figures/`.
 
