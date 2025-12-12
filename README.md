@@ -1,15 +1,4 @@
-[![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485)
-
-<!-- Get rid of the metarepo instructions (the two sections below this) once you're done. -->
-
-# metarepo
-## [Check out the website for instructions](https://immm-sfa.github.io/metarepo)
-`metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
-
-## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
-
-<!-- Get rid of the metarepo instructions (the two sections above this) once you're done. -->
+<! -- [![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485) -->
 
 # Thames-etal_2025_jgrse
 
@@ -30,7 +19,7 @@ Thames, A. B. & Foley, B. J. Reconciling Coupled Thermal-Water Evolution Models 
 
 ## Data reference
 ### Output data
-Thames, A. B. & Foley, B. J. (2025). Output Data for Thames & Foley -- Reconciling Coupled Thermal-Water Evolution Models (v1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.17903920
+Thames, A. (2025). Output Data for Thames & Foley -- Reconciling Coupled Thermal-Water Evolution Models (1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.17903920
 
 ## Reproduce my experiment
 1. Download all scripts from `workflow` to a common directory 
@@ -92,7 +81,7 @@ Thames, A. B. & Foley, B. J. (2025). Output Data for Thames & Foley -- Reconcili
     | `VolatileProcessing_2025XI.m` | Identify parameter ranges discussed in main paper | `%% TARGETED OUTPUT ASSESSMENT USING JUST BEST-KNOWN CONSTRAINTS` | Comment out other sections, execute script in IDE |
 
 ## Reproduce my figures
-After creating the output data from the steps outlined above -- or downloading the output data used in the paper from the Zenodo repository and placing them in the hierarchy listed above -- to recreate the figures simply proceed as follows:
+After creating the output data from the steps outlined above -- or downloading the output data used in the paper from the Zenodo repository and placing them in the hierarchy listed above -- to recreate the figures simply proceed as follows on a local machine:
 
  1. Download supplementary data from [Herzberg et al. (2010)](https://doi.org/10.1016/j.epsl.2010.01.022). Rename to `Herzberg_etal_2010_Supplemental.xls` and store in `supplemental/`
  2. Download supplementary data from [Condie et al. (2016)](https://doi.org/10.1016/j.gsf.2016.01.006). Rename to `Condie_etal_2016_Supplemental.xlsx` and store in `supplemental/`
